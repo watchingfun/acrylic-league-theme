@@ -8,6 +8,12 @@
 /* this source: https://github.com/PrincessAkira/league-launcher-theme/tree/main/Acrylical    */
 /* Sarah's source: https://github.com/PrincessAkira/league-launcher-theme/tree/main/Acrylical */
 
+@font-face {
+   font-family: "SarasaMonoSC-Regular";
+   font-style: normal;
+   font-weight: 400;
+   src: local("☺"), url(fonts/SarasaMonoSC-Regular.ttf) format("truetype");
+ }
 
 /* Settings section */
 
@@ -22,14 +28,9 @@
 
 }
 
-/* Font:  */
-
-/* Find font you want on https://fonts.google.com/ and edit the following import accordingly: */
-@import url("https://fonts.googleapis.com/css?family=JetBrains+Mono");
-
 :root {
-   --font-display: 'JetBrains Mono', sans-serif !important;
-   --font-body: 'JetBrains Mono', sans-serif !important;
+   --font-display: 'SarasaMonoSC-Regular', sans-serif !important;
+   --font-body: 'SarasaMonoSC-Regular', sans-serif !important;
 }
 
 /* Tweaks: */
@@ -48,9 +49,9 @@
 
 
 /* Lobby invite buttons, in place of unfilled banners */
-.v2-banner-placeholder {
+/* .v2-banner-placeholder {
    display: none !important;
-}
+} */
 
 
 /* Status indicator, under name, top right corner */
